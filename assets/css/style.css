@@ -1,0 +1,93 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+body{
+    align-items: center;
+    /* haikei.app*/
+    background: url(../img/polygon-scatter-haikei.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+}
+.container{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: url(../img/door-svgrepo-com.svg  );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.01);
+    color: #232323;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.34);
+    flex-basis: 400px;
+    height: 640px;
+    padding: 20px 35px;
+    
+}
+.screen{
+    font-size: 35px;
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    overflow: auto;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: right;
+    width: 326px;
+}
+.button-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+
+}
+.btn{
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(35, 35, 35, 0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.01);
+    flex-basis: 20%;
+    font-family: inherit;
+    font-size: 24px;
+    height: 65px;
+
+}
+.btn:last-child{
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(35, 35, 35, 0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.01);
+    background: #ef8e07;
+    color: #ffffff;
+}
+.btn:last-child:hover{
+    background-color: inherit;
+    color: inherit;
+}
+.btn:hover{
+    background-color: inherit;
+}
+.btn:active{
+    background-color: #ff2880;;
+}
+.double{
+    flex-basis: 50%;
+}
+.triple{
+    flex-basis: 75% ;
+}
